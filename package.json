@@ -1,0 +1,27 @@
+{
+  "name": "project-moba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadualma1/PROJECT-MOBA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kadualma1/PROJECT-MOBA/issues"
+  },
+  "homepage": "https://github.com/kadualma1/PROJECT-MOBA#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  }
+}
