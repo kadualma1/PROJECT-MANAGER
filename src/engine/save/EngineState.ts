@@ -1,16 +1,16 @@
-import type { Person } from "../people/Person";
-import type { PlayerState } from "../people/PlayerState";
-import type { Team } from "../teams/Team";
-import type { Organization } from "../organizations/Organization";
-import type { Contract } from "../contracts/Contract";
-import type { ContractOffer } from "../market/ContractOffer";
-import type { Competition } from "../competition/Competition";
-import type { Season } from "../competition/Season";
-import type { Fixture } from "../competition/Fixture";
-import type { FixtureResult } from "../competition/FixtureResult";
-import type { GameEvent } from "../events/GameEvent";
-import type { CareerRecord } from "../history/CareerRecord";
-import type { SaveGame } from "./SaveGame";
+import type { Person } from "../people/Person.js";
+import type { PlayerState } from "../people/PlayerState.js";
+import type { Team } from "../teams/Team.js";
+import type { Organization } from "../orgs/Organization.js";
+import type { Contract } from "../contracts/Contract.js";
+import type { ContractOffer } from "../contracts/ContractOffer.js";
+import type { Competition } from "../competition/Competition.js";
+import type { Season } from "../competition/Season.js";
+import type { Fixture } from "../competition/Fixture.js";
+import type { FixtureResult } from "../competition/FixtureResult.js";
+import type { GameEvent } from "../events/GameEvent.js";
+import type { CareerRecord } from "../history/CareerRecord.js";
+import type { SaveGame } from "./SaveGame.js";
 
 export interface EngineState {
   save: SaveGame;

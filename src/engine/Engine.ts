@@ -1,5 +1,5 @@
-import { SeededRandom } from "./random/SeededRandom";
-import type { EngineState } from "./save/EngineState";
+import { SeededRandom } from "./random/SeededRandom.js";
+import type { EngineState } from "./save/EngineState.js";
 
 export class Engine {
   private state: EngineState;
