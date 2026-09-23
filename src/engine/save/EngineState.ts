@@ -1,6 +1,6 @@
 import type { Person } from "../people/Person.js";
 import type { PlayerState } from "../people/PlayerState.js";
-import type { Team } from "../teams/Team.js";
+import type { TeamState } from "../teams/TeamState.js";
 import type { Organization } from "../orgs/Organization.js";
 import type { Contract } from "../contracts/Contract.js";
 import type { ContractOffer } from "../contracts/ContractOffer.js";
@@ -18,7 +18,7 @@ export interface EngineState {
   people: Person[];
   playerStates: PlayerState[];
 
-  teams: Team[];
+  teams: TeamState[];
   organizations: Organization[];
 
   contracts: Contract[];
