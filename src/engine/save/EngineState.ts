@@ -2,7 +2,7 @@ import type { Person } from "../people/Person.js";
 import type { PlayerState } from "../people/PlayerState.js";
 import type { TeamState } from "../teams/TeamState.js";
 import type { Organization } from "../orgs/Organization.js";
-import type { Contract } from "../contracts/Contract.js";
+import type { ContractState } from "../contracts/ContractState.js";
 import type { ContractOffer } from "../contracts/ContractOffer.js";
 import type { Competition } from "../competition/Competition.js";
 import type { Season } from "../competition/Season.js";
@@ -21,7 +21,7 @@ export interface EngineState {
   teams: TeamState[];
   organizations: Organization[];
 
-  contracts: Contract[];
+  contracts: ContractState[];
   contractOffers: ContractOffer[];
 
   competitions: Competition[];
