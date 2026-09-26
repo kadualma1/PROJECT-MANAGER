@@ -6,7 +6,7 @@ import type { ContractState } from "../contracts/ContractState.js";
 import type { ContractOffer } from "../contracts/ContractOffer.js";
 import type { Competition } from "../competition/Competition.js";
 import type { Season } from "../competition/Season.js";
-import type { Fixture } from "../competition/Fixture.js";
+import type { FixtureState } from "../competition/FixtureState.js";
 import type { FixtureResult } from "../competition/FixtureResult.js";
 import type { GameEvent } from "../events/GameEvent.js";
 import type { CareerRecord } from "../history/CareerRecord.js";
@@ -26,7 +26,7 @@ export interface EngineState {
 
   competitions: Competition[];
   seasons: Season[];
-  fixtures: Fixture[];
+  fixtures: FixtureState[];
   fixtureResults: FixtureResult[];
 
   events: GameEvent[];

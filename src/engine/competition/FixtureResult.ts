@@ -1,13 +1,13 @@
 export interface FixtureResult {
     id: string;
 
-    fixtureId: string;
+    fixtureId: string | undefined;
 
     winnerTeamId?: string;
 
     isDraw: boolean;
 
-    participantTeamsIds: string[];
+    participantTeamIds: string[];
 
     rulesetResultId: string;
 }
