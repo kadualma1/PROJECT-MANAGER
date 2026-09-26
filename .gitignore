@@ -65,3 +65,6 @@ prisma/dev.db-journal
 # Misc cache
 .cache/
 .eslintcache
+
+# Compiled domain demo
+.demo-dist/
