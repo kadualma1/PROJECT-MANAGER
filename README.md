@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/badge/tests-Vitest-729B1B?style=flat-square" alt="Tests with Vitest" />
   <img src="https://img.shields.io/badge/design-headless_domain-0F766E?style=flat-square" alt="Headless domain design" />
   <img src="https://img.shields.io/badge/status-M0_foundation_complete-15803D?style=flat-square" alt="M0 foundation complete" />
-</p>
 
 <p align="center">
   <a href="#quick-start">Quick start</a> ·
