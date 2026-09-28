@@ -65,3 +65,9 @@ prisma/dev.db-journal
 # Misc cache
 .cache/
 .eslintcache
+
+# Compiled domain demo
+.demo-dist/
+
+# Accidental PowerShell cache
+Microsoft/Windows/PowerShell/ModuleAnalysisCache

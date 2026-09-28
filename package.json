@@ -1,18 +1,30 @@
 {
   "name": "project-moba",
   "version": "1.0.0",
-  "description": "",
+  "description": "Modular TypeScript engine for sports management simulations, with tested domain models, restorable seeded randomness, and a planned MOBA ruleset.",
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run test:run",
+    "demo": "tsc -p tsconfig.demo.json && node .demo-dist/examples/domain-demo.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kadualma1/PROJECT-MOBA.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "sports-management",
+    "simulation",
+    "game-development",
+    "domain-modeling",
+    "deterministic-simulation",
+    "vitest",
+    "esports"
+  ],
+  "author": "Carlos Eduardo Maroso Alves",
   "license": "ISC",
   "type": "module",
   "bugs": {

@@ -2,11 +2,15 @@ export class SeededRandom {
   private state: number;
 
   constructor(seed: number) {
+    if (!Number.isInteger(seed)) {
+      throw new Error("Seed must be an integer");
+    }
+
     this.state = seed >>> 0;
   }
 
   next(): number {
-    this.state += 0x6d2b79f5;
+    this.state = (this.state + 0x6d2b79f5) >>> 0;
 
     let value = this.state;
 
@@ -17,14 +21,26 @@ export class SeededRandom {
   }
 
   nextInt(min: number, max: number): number {
+    if (!Number.isInteger(min) || !Number.isInteger(max)) {
+      throw new Error("nextInt bounds must be integers");
+    }
+
+    if (max < min) {
+      throw new Error("nextInt max must be greater than or equal to min");
+    }
+
     return Math.floor(this.next() * (max - min + 1)) + min;
   }
 
   getState(): number {
-    return this.state >>> 0;
+    return this.state;
   }
 
   setState(state: number): void {
+    if (!Number.isInteger(state) || state < 0 || state > 0xffffffff) {
+      throw new Error("RNG state must be an unsigned 32-bit integer");
+    }
+
     this.state = state >>> 0;
   }
 }

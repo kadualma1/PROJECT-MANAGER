@@ -47,3 +47,20 @@ describe("SeededRandom", () => {
     expect(restored).toBe(expected);
   });
 });
+describe("SeededRandom input validation", () => {
+  it("rejects non-integer bounds", () => {
+    const rng = new SeededRandom(12345);
+
+    expect(() => {
+      rng.nextInt(1.5, 10);
+    }).toThrow();
+  });
+
+  it("rejects an inverted integer range", () => {
+    const rng = new SeededRandom(12345);
+
+    expect(() => {
+      rng.nextInt(10, 1);
+    }).toThrow();
+  });
+});

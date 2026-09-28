@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+<title id="title">Sports Manager Engine</title>
+<desc id="desc">Shared systems. Distinct sports. Reproducible stories. A modular TypeScript domain engine.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c182b"/><stop offset="1" stop-color="#122c3a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#62e5c5"/><stop offset="1" stop-color="#5daeea"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#93c9de" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1280" height="440" rx="20" fill="url(#bg)"/>
+<rect width="1280" height="440" rx="20" fill="url(#grid)"/>
+<rect x="56" y="54" width="34" height="5" rx="2.5" fill="#62e5c5"/>
+<text x="105" y="63" font-family="DejaVu Sans, sans-serif" font-size="14" letter-spacing="3" fill="#8ca8b9">DOMAIN ENGINE / TYPESCRIPT</text>
+<text x="52" y="158" font-family="DejaVu Sans, sans-serif" font-size="72" font-weight="bold" letter-spacing="-2" fill="#f0f6fa">SPORTS</text>
+<text x="52" y="236" font-family="DejaVu Sans, sans-serif" font-size="65" font-weight="bold" letter-spacing="-2" fill="#f0f6fa">MANAGER ENGINE</text>
+<text x="56" y="291" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#afc3cf">Shared systems. Distinct sports. Reproducible stories.</text>
+<rect x="56" y="341" width="157" height="35" rx="17.5" fill="#1a3946" stroke="#335869"/>
+<text x="134.5" y="364" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" letter-spacing="1.2" fill="#8debd1">MODULAR CORE</text>
+<rect x="225" y="341" width="160" height="35" rx="17.5" fill="#1a3946" stroke="#335869"/>
+<text x="305" y="364" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" letter-spacing="1.2" fill="#b8dcef">SEEDED RANDOM</text>
+<rect x="397" y="341" width="172" height="35" rx="17.5" fill="#1a3946" stroke="#335869"/>
+<text x="483" y="364" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" letter-spacing="1.2" fill="#b8dcef">EXPLICIT STATES</text>
+<g transform="translate(960,97)">
+  <path d="M0 63 L116 0 232 63 116 126Z" fill="#163e50" stroke="#527f99" stroke-width="2"/>
+  <path d="M0 119 L116 56 232 119 116 182Z" fill="#184555" stroke="#62a8ba" stroke-width="2"/>
+  <path d="M0 175 L116 112 232 175 116 238Z" fill="#165748" stroke="#62e5c5" stroke-width="2"/>
+  <path d="M116 150 L162 175 116 200 70 175Z" fill="none" stroke="#a2f5df" stroke-width="2"/>
+  <circle cx="116" cy="175" r="7" fill="#a2f5df"/>
+</g>
+<path d="M56 417 H1224" stroke="url(#accent)" stroke-width="2" opacity=".6"/>
+</svg>
